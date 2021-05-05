@@ -19,7 +19,7 @@ jobs:
           aws-region: us-east-1
       - name: Upload files to S3
         run: |
-            aws s3 sync . s3://sierraonetech.com --region me-south-1 --endpoint-url https://s3.me-south-1.amazonaws.com --acl public-read  --delete --cache-control max-age=604800
+            aws s3 sync . s3://sierraonetech.com --region us-east-1 --endpoint-url https://s3.us-east-1.amazonaws.com --acl public-read  --delete --cache-control max-age=604800
       - name: Notify Slack
         uses: act10ns/slack@v1
         env:
