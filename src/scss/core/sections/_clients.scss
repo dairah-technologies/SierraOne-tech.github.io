@@ -10,6 +10,10 @@
 	}
 }
 
+.client-logo {
+	max-height: 140px;
+}
+
 .clients-inner {
 
 	ul {
@@ -27,6 +31,14 @@
 }
 
 @include media( '>medium' ) {
+
+	.contact-us-element {
+		display: flex;
+		justify-content: space-between;
+		.contact-us-text {
+			text-align: right;
+		}
+	}
 
 	.clients {
 
