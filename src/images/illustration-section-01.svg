@@ -1,0 +1,100 @@
+<svg width="2389" height="765" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<linearGradient x1="45.614%" y1="-2.833%" x2="13.272%" y2="100%" id="a">
+			<stop stop-color="#FFF" stop-opacity=".64" offset="0%"/>
+			<stop stop-color="#FFF" stop-opacity="0" offset="100%"/>
+		</linearGradient>
+		<filter x="-.9%" y="-.3%" width="101.9%" height="100.7%" filterUnits="objectBoundingBox" id="b">
+			<feGaussianBlur stdDeviation="-0.5 -6.123234e-17" in="SourceGraphic"/>
+		</filter>
+		<circle id="c" cx="48" cy="48" r="48"/>
+		<filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="d">
+			<feGaussianBlur in="SourceGraphic"/>
+		</filter>
+		<filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="e">
+			<feGaussianBlur stdDeviation="16" in="SourceAlpha" result="shadowBlurInner1"/>
+			<feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+			<feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+						 result="shadowInnerInner1"/>
+			<feColorMatrix values="0 0 0 0 0.2 0 0 0 0 0.505882353 0 0 0 0 1 0 0 0 1 0" in="shadowInnerInner1"/>
+		</filter>
+		<radialGradient cx="48.392%" cy="0%" fx="48.392%" fy="0%" r="117.062%"
+						gradientTransform="scale(-1 -.84319) rotate(-86.229 0 .517)" id="f">
+			<stop stop-color="#0062FF" stop-opacity="0" offset="0%"/>
+			<stop stop-color="#0062FF" stop-opacity=".32" offset="68.708%"/>
+			<stop stop-color="#00C2BE" offset="100%"/>
+		</radialGradient>
+		<filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="g">
+			<feGaussianBlur in="SourceGraphic"/>
+		</filter>
+		<radialGradient cx="47.914%" cy=".603%" fx="47.914%" fy=".603%" r="110.819%"
+						gradientTransform="scale(-1 -.84319) rotate(-56.212 -.012 .897)" id="h">
+			<stop stop-color="#0062FF" offset="0%"/>
+			<stop stop-color="#00F5F0" offset="36.832%"/>
+			<stop stop-color="#00F5F0" stop-opacity="0" offset="66.454%"/>
+			<stop stop-color="#00A7FF" stop-opacity=".24" offset="100%"/>
+		</radialGradient>
+		<filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="i">
+			<feGaussianBlur in="SourceGraphic"/>
+		</filter>
+		<radialGradient cx="52.101%" cy="-25.108%" fx="52.101%" fy="-25.108%" r="112.467%" id="k">
+			<stop stop-color="#00A7FF" stop-opacity=".24" offset="0%"/>
+			<stop stop-color="#00F5F0" stop-opacity=".72" offset="44.314%"/>
+			<stop stop-color="#00F5F0" stop-opacity="0" offset="100%"/>
+		</radialGradient>
+		<circle id="j" cx="199.723" cy="200.238" r="199.501"/>
+		<filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="l">
+			<feGaussianBlur in="SourceGraphic"/>
+		</filter>
+		<linearGradient x1="88.451%" y1="97.066%" x2="48.181%" y2="39.462%" id="m">
+			<stop stop-color="#00A7FF" offset="0%"/>
+			<stop stop-color="#0062FF" stop-opacity="0" offset="100%"/>
+		</linearGradient>
+		<radialGradient cx="48.392%" cy="0%" fx="48.392%" fy="0%" r="111.725%"
+						gradientTransform="scale(-1 -.8427) rotate(-56.228 0 .906)" id="n">
+			<stop stop-color="#00C2BE" stop-opacity="0" offset="0%"/>
+			<stop stop-color="#0062FF" offset="37.439%"/>
+			<stop stop-color="#0062FF" stop-opacity="0" offset="65.522%"/>
+			<stop stop-color="#111325" stop-opacity="0" offset="100%"/>
+		</radialGradient>
+		<filter x="-5%" y="-4.2%" width="110%" height="108.4%" filterUnits="objectBoundingBox" id="o">
+			<feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+		</filter>
+		<circle id="p" cx="16" cy="16" r="16"/>
+		<filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="q">
+			<feGaussianBlur in="SourceGraphic"/>
+		</filter>
+		<filter x="-18.8%" y="-18.8%" width="137.5%" height="137.5%" filterUnits="objectBoundingBox" id="r">
+			<feGaussianBlur stdDeviation="6" in="SourceAlpha" result="shadowBlurInner1"/>
+			<feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+			<feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+						 result="shadowInnerInner1"/>
+			<feColorMatrix values="0 0 0 0 0 0 0 0 0 0.384313725 0 0 0 0 1 0 0 0 1 0" in="shadowInnerInner1"/>
+		</filter>
+		<linearGradient x1="65.533%" y1="39.002%" x2="20.072%" y2="102.251%" id="s">
+			<stop stop-color="#00F5F0" stop-opacity=".64" offset="0%"/>
+			<stop stop-color="#00A7FF" stop-opacity="0" offset="100%"/>
+		</linearGradient>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<g filter="url(#d)">
+			<use filter="url(#e)" xlink:href="#c" opacity=".16" fill="#000" transform="translate(614.837 668.992)"/>
+		</g>
+		<path
+			d="M463 820.585c165.685 0 300-134.315 300-300s-255.488-620.379-300-300-300 134.315-300 300 134.315 300 300 300z"
+			filter="url(#g)" transform="rotate(44 1836.714 2015.613)" fill="url(#f)"/>
+		<path
+			d="M454 820.585c165.685 0 300-134.315 300-300s-255.488-620.379-300-300-300 134.315-300 300 134.315 300 300 300z"
+			filter="url(#i)" transform="rotate(-37 472.675 -1582.476)" fill="url(#h)" fill-opacity=".32"/>
+		<use fill="url(#k)" filter="url(#l)" xlink:href="#j" transform="translate(1688.837 156.992)"/>
+		<ellipse cx="200.223" cy="200.238" rx="200" ry="199.501" transform="translate(1437.837 171.992)"
+				 fill="url(#m)"/>
+		<path
+			d="M381.788 685.903c165.685 0 300-134.393 300-300.175s-255.488-620.741-300-300.175-300 134.393-300 300.175 134.314 300.175 300 300.175z"
+			filter="url(#o)" transform="rotate(-85 869.78 -488.593)" fill="url(#n)" fill-opacity=".48"/>
+		<g filter="url(#q)">
+			<use filter="url(#r)" xlink:href="#p" opacity=".16" fill="#000" transform="translate(1439.837 105.992)"/>
+		</g>
+		<circle cx="199.723" cy="200.238" r="199.501" transform="rotate(18 1804.613 5815.555)" fill="url(#s)"/>
+	</g>
+</svg>
