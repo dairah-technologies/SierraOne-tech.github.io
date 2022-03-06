@@ -1,4 +1,4 @@
-# Storm
+# SierraOne Landing Page
 
 HTML landing page template.
 
