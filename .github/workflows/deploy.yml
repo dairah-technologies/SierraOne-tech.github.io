@@ -11,6 +11,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - run: npm install -g npm@latest
+      - run: npm install
+      - run: npm run build
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -19,7 +22,7 @@ jobs:
           aws-region: us-east-1
       - name: Upload files to S3
         run: |
-            aws s3 sync . s3://sierraonetech.com --region us-east-1 --endpoint-url https://s3.us-east-1.amazonaws.com --acl public-read  --delete --cache-control max-age=604800
+            aws s3 sync ./build s3://sierraonetech.com --region us-east-1 --endpoint-url https://s3.us-east-1.amazonaws.com --acl public-read  --delete --cache-control max-age=604800
             
       - name: Create Cloudfront Invalidation
         run: |
